@@ -73,7 +73,7 @@ terraform apply
         ansible.builtin.service:
             name: nginx
             state: restarted 
-            enabled: yes # WEnsure the service starts at boot
+            enabled: yes # Ensure the service starts at boot
   ```
 
 ### Validating Ansible playbooks
