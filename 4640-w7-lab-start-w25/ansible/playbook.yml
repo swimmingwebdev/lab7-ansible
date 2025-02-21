@@ -1,0 +1,8 @@
+- name: Configure web servers
+  tasks:
+    - name: Install nginx
+    - name: create directory structure for web documents
+    - name: copy nginx conf file to server
+    - name: create link to nginx config file to enable it
+    - name: Generate index.html file from template
+    - name: reload nginx service
