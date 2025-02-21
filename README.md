@@ -85,3 +85,8 @@ ansible-playbook --syntax-check playbook.yml
 ```bash
 ansible-playbook -i ~/lab7/ansible/inventory/hosts.yml playbook.yml
 ```
+
+### Cleanup
+```bash
+terraform destroy
+```
